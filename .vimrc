@@ -6,7 +6,7 @@ behave mswin
 au GUIEnter * simalt ~x
 au BufEnter * cd %:p:h
 
-set guifont=Lucida_Console:h8
+set guifont=Lucida_Console:h16
 
 set backspace=indent,eol,start
 set autoindent
