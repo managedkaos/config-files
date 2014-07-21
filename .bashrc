@@ -18,8 +18,8 @@ export DESKTOP="/cygdrive/c/Users/$USER/Desktop"
 export DOWNLOADS="/cygdrive/c/Users/$USER/Downloads"
 export DROPBOX="/cygdrive/c/Users/$USER/Dropbox"
 export DOCUMENTS="/cygdrive/c/Users/$USER/Documents"
+export WORKSPACE="/cygdrive/c/Users/$USER/workspace"
 export VBOX_DIR=$(cygpath -u "C:\Program Files\Oracle\VirtualBox")
-export WORKSPACE="/cygdrive/c/Users/Michael/workspace"
 
 # Path...
 export PATH=$PATH:$JAVA_DIR
