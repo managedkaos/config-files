@@ -32,6 +32,7 @@ export PATH=$PATH:$VBOX_DIR
 
 alias h=history
 alias s=source
+alias nsl=nslookup
 alias cibash="ci -l ~/.bashrc"
 alias vibash="vi ~/.bashrc"
 alias rebash="source ~/.bashrc"
