@@ -37,7 +37,9 @@ map <S-C-TAB> :bp<CR>
 map <C-W>     :bd<CR>
 map <S-C-W>   :bd!<CR>
 map <C-N>     :enew<CR>
-map <F6>      gg=G
+map <F4>      gg=G
+nmap <F3> a<C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR><Esc>
+imap <F3> <C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR>
 syntax on
 colorscheme desert
 
