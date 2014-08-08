@@ -29,6 +29,7 @@ set tabstop=4
 set expandtab
 set nostartofline
 set ls=2
+set ff=unix
 set noerrorbells
 set visualbell
 set hidden
