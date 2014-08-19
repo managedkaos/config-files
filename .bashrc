@@ -19,7 +19,6 @@ export DOWNLOADS="/cygdrive/c/Users/$USER/Downloads"
 export DROPBOX="/cygdrive/c/Users/$USER/Dropbox"
 export DOCUMENTS="/cygdrive/c/Users/$USER/Documents"
 export WORKSPACE="/cygdrive/c/Users/$USER/workspace"
-export VBOX_DIR=$(cygpath -u "C:\Program Files\Oracle\VirtualBox")
 
 # Path...
 export PATH=$PATH:$JAVA_DIR
@@ -30,15 +29,20 @@ export PATH=$PATH:$VBOX_DIR
 
 ## Aliases...
 
+alias whence='type -a'                        # where, of a sort
+alias grep='grep --color'                     # show differences in colour
+alias egrep='egrep --color=auto'              # show differences in colour
+alias fgrep='fgrep --color=auto'              # show differences in colour
 alias h=history
 alias s=source
 alias nsl=nslookup
-alias path="echo $PATH"
+alias path='echo $PATH'
 alias ppath="echo $PATH | sed 's/\:/\n/g' | sort"
 alias vi=`which vim`
 alias cibash="ci -l ~/.bashrc"
 alias vibash="vi ~/.bashrc"
 alias rebash="source ~/.bashrc"
+alias tmp="cd /tmp"
 alias apps="cd $APPS_DIR"
 alias www="cd $APPS_DIR/xampp/htdocs"
 alias lash="history | egrep -v lass?h | grep ssh"
@@ -46,10 +50,10 @@ alias desktop="cd $DESKTOP"
 alias downloads="cd $DOWNLOADS"
 alias dropbox="cd $DROPBOX"
 alias workspace="cd $WORKSPACE"
+alias ping="/cygdrive/c/Windows/system32/PING -t"
 
 ## SSH Aliases...
-#alias startpuppetvm="vboxheadless --startvm 4ee898ca-5933-404d-a421-665caa1e2fc0 &"
-#alias stoppuppetvm="vboxmanage controlvm learn_puppet poweroff"
+
 
 ## Functions...
 
